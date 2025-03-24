@@ -1,0 +1,1423 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    animation-name: changer;
+    animation-iteration-count: infinite;
+    animation-duration: 50s;
+}
+
+header{
+    min-width: 130%;
+    height: 60px;
+    background-color: black;
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+header .nav-10{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+header .nav-10 a{
+    color: cyan;
+    font-size: 14px;
+}
+
+header .nav-11{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+ .nav-11 a{
+    color: rgb(208, 227, 37);
+    font-size: 14px;
+}
+
+header .nav-12{
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-12 a{
+    color: white;
+    font-size: 14px;
+}
+
+
+ section{
+    min-width:130%;
+    height: 60px;
+    background-color: white;
+    border: 1px solid rgb(52, 52, 52);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 50px;
+}
+
+section .nav-20{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+section .nav-21{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-21 a{
+    color: black;
+    font-size: 14px;
+}
+
+section .nav-21{
+    transition: 1s;
+}
+
+section .nav-21:hover{
+    transform: scale(1.2);
+    filter: invert(-1);
+}
+
+
+section .nav-22{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-22 a{
+    color: black;
+    font-size: 14px;
+}
+
+section .nav-22{
+    transition: 1s;
+}
+
+section .nav-22:hover{
+    transform: scale(1.2);
+    filter: invert(-1);
+}
+
+
+section .nav-23{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-23 a{
+    color: black;
+    font-size: 14px;
+}
+
+section .nav-23{
+    transition: 1s;
+}
+
+section .nav-23:hover{
+    transform: scale(1.2);
+    filter: invert(-1);
+}
+
+section .nav-24{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-24 a{
+    color: black;
+    font-size: 14px;
+}
+
+section .nav-24{
+    transition: 1s;
+}
+
+section .nav-24:hover{
+    transform: scale(1.2);
+    filter: invert(-1);
+}
+
+section .nav-25{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px  solid black;
+    border-radius: 100px;
+    gap: 100px;
+    padding: 10px 10px;
+    cursor: text;
+}
+
+section .nav-25{
+    transition: 1s;
+}
+
+section .nav-25:hover{
+    transform: scale(1.2);
+    filter: invert(-1);
+}
+
+.nav-25 a{
+    color: rgb(31, 30, 30);
+    font-size: 10px;
+}
+
+.section-10{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 80px;
+    border: none;
+    animation-name: changer2;
+    animation-iteration-count: infinite;
+    animation-duration: 50s;
+}
+
+.section-10 .div-30{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+}
+
+.div-30>img{
+    background-color: whitesmoke;
+    padding: 20px 20px;
+    margin-bottom: 10px;
+}
+
+.div-30>img{
+    transition: 1s;
+}
+
+.div-30>img:hover{
+    transform: scale(1.1);
+}
+
+.div-30 h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+
+.ediv-10{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ediv-10 .img2{
+    margin-left: 100px;
+    border: 1px solid  black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.ediv-10 .img2{
+    transition: 1s;
+}
+
+.ediv-10 .img2:hover{
+    transform: scale(1.2);
+    
+}
+
+.ediv-12{
+    display: flex;
+    align-items: center;
+}
+
+.ediv-12 h4{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.fsection-10{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+
+    padding: 20px ;
+}
+
+.fsection-10 .div-31{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.div-31>img{
+    background-color: whitesmoke;
+    padding: 50px 40px;
+    margin-bottom: 10px;
+}
+
+.div-31>img{
+    transition: 1s;
+}
+
+.div-31>img:hover{
+    transform: scale(1.1);
+}
+
+.div-31 h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.ediv-13{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ediv-13 .img3{
+    margin-left: 150px;
+    border: 1px solid  black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.ediv-13 .img3{
+    transition: 1s;
+}
+
+.ediv-13 .img3:hover{
+    transform: scale(1.2);
+    
+}
+
+.ediv-14{
+    display: flex;
+    align-items: center;
+}
+
+.ediv-14 h4{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.fsection-11{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+
+    padding: 20px ;
+}
+
+.fsection-11 .div-33{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.div-33>img{
+    background-color: whitesmoke;
+    padding: 50px 40px;
+    margin-bottom: 10px;
+}
+
+.div-33>img{
+    transition: 1s;
+}
+
+.div-33>img:hover{
+    transform: scale(1.1);
+}
+
+.div-33 h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.ediv-15{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ediv-15 .img4{
+    margin-left: 100px;
+    border: 1px solid  black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.ediv-15 .img4{
+    transition: 1s;
+}
+
+.ediv-15 .img4:hover{
+    transform: scale(1.2);
+    
+}
+
+.ediv-17{
+    display: flex;
+    align-items: center;
+}
+
+.ediv-17 h4{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.fsection-12{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px ;
+
+    padding: 20px ;
+}
+
+.fsection-12 .div-34{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.div-34>img{
+    background-color: whitesmoke;
+    padding: 50px 40px;
+    margin-bottom: 10px;
+}
+
+.div-34>img{
+    transition: 1s;
+}
+
+.div-34>img:hover{
+    transform: scale(1.1);
+}
+
+.div-34 h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.ediv-16{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ediv-16 .img5{
+    margin-left: 100px;
+    border: 1px solid  black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.ediv-16 .img5{
+    transition: 1s;
+}
+
+.ediv-16 .img5:hover{
+    transform: scale(1.2);
+    
+}
+
+.ediv-18{
+    display: flex;
+    align-items: center;
+}
+
+.ediv-18 h4{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.fsection-13{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px ;
+
+    padding: 20px ;
+}
+
+.fsection-13 .div-35{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.div-35>img{
+    background-color: whitesmoke;
+    padding: 50px 40px;
+    margin-bottom: 10px;
+}
+
+.div-35>img{
+    transition: 1s;
+}
+
+.div-35>img:hover{
+    transform: scale(1.1);
+}
+
+.div-35 h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.ediv-17{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ediv-17 .img6{
+    margin-left: 100px;
+    border: 1px solid  black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.ediv-17 .img6{
+    transition: 1s;
+}
+
+.ediv-17 .img6:hover{
+    transform: scale(1.2);
+    
+}
+
+.ediv-19{
+    display: flex;
+    align-items: center;
+}
+
+.ediv-19 h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.fsection-14{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px ;
+
+    padding: 20px ;
+}
+
+.fsection-14 .div-36{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.div-36>img{
+    background-color: whitesmoke;
+    padding: 50px 40px;
+    margin-bottom: 10px;
+}
+
+.div-36>img{
+    transition: 1s;
+}
+
+.div-36>img:hover{
+    transform: scale(1.1);
+}
+
+.div-36 h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.ediv-18{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ediv-18 .img7{
+    margin-left: 100px;
+    border: 1px solid  black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.ediv-18 .img7{
+    transition: 1s;
+}
+
+.ediv-18 .img7:hover{
+    transform: scale(1.2);
+    
+}
+
+.ediv-20{
+    display: flex;
+    align-items: center;
+}
+
+.ediv-20 h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.section-11{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 30px;
+    border: none;
+    animation-name: changer3;
+    animation-iteration-count: infinite;
+    animation-duration: 50s;
+}
+
+.section-11 .div-37{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+
+}
+
+.div-37>img{
+    background-color: whitesmoke;
+    padding: 30px 30px;
+    margin-bottom: 10px;
+}
+
+.div-37>img{
+    transition: 1s;
+}
+
+.div-37>img:hover{
+    transform: scale(1.1);
+}
+
+.div-37 h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+
+.ediv-20{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ediv-20 .img9{
+    margin-left: 100px;
+    border: 1px solid  black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.ediv-20 .img9{
+    transition: 1s;
+}
+
+.ediv-20 .img9:hover{
+    transform: scale(1.2);
+    
+}
+
+.ediv-22{
+    display: flex;
+    align-items: center;
+}
+
+.ediv-22 h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.fsection-15{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+
+    padding: 20px ;
+}
+
+.fsection-15 .div-38{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.div-38>img{
+    background-color: whitesmoke;
+    padding: 50px 40px;
+    margin-bottom: 10px;
+}
+
+.div-38>img{
+    transition: 1s;
+}
+
+.div-38>img:hover{
+    transform: scale(1.1);
+}
+
+.div-38 h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.ediv-21{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ediv-21 .img10{
+    margin-left: 150px;
+    border: 1px solid  black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.ediv-21 .img10{
+    transition: 1s;
+}
+
+.ediv-21 .img10:hover{
+    transform: scale(1.2);
+    
+}
+
+.ediv-23{
+    display: flex;
+    align-items: center;
+}
+
+.ediv-23 h4{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.fsection-16{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px
+    ;
+
+    padding: 20px ;
+}
+
+.fsection-16 .div-39{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.div-39>img{
+    background-color: whitesmoke;
+    padding: 50px 40px;
+    margin-bottom: 10px;
+}
+
+.div-39>img{
+    transition: 1s;
+}
+
+.div-39>img:hover{
+    transform: scale(1.1);
+}
+
+.div-39 h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.ediv-22{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ediv-22 .img11{
+    margin-left: 100px;
+    border: 1px solid  black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.ediv-22 .img11{
+    transition: 1s;
+}
+
+.ediv-22 .img11:hover{
+    transform: scale(1.2);
+    
+}
+
+.ediv-24{
+    display: flex;
+    align-items: center;
+}
+
+.ediv-24 h4{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.fsection-17{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px
+    ;
+
+    padding: 20px ;
+}
+
+.fsection-17 .div-40{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.div-40>img{
+    background-color: whitesmoke;
+    padding: 20px 40px;
+    margin-bottom: 10px;
+}
+
+.div-40>img{
+    transition: 1s;
+}
+
+.div-40>img:hover{
+    transform: scale(1.1);
+}
+
+.div-40 h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.ediv-23{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ediv-23 .img12{
+    margin-left: 100px;
+    border: 1px solid  black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.ediv-23 .img12{
+    transition: 1s;
+}
+
+.ediv-23 .img12:hover{
+    transform: scale(1.2);
+    
+}
+
+.ediv-25{
+    display: flex;
+    align-items: center;
+}
+
+.ediv-25 h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.fsection-18{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px
+    ;
+
+    padding: 20px ;
+}
+
+.fsection-18 .div-41{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.div-41>img{
+    background-color: whitesmoke;
+    padding: 50px 40px;
+    margin-bottom: 10px;
+}
+
+.div-41>img{
+    transition: 1s;
+}
+
+.div-41>img:hover{
+    transform: scale(1.1);
+}
+
+.div-41 h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.ediv-24{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ediv-24 .img13{
+    margin-left: 100px;
+    border: 1px solid  black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.ediv-24 .img13{
+    transition: 1s;
+}
+
+.ediv-24 .img13:hover{
+    transform: scale(1.2);
+    
+}
+
+.ediv-26{
+    display: flex;
+    align-items: center;
+}
+
+.ediv-26 h4{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.section-12{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 30px;
+    border: none;
+    animation-name: changer3;
+    animation-iteration-count: infinite;
+    animation-duration: 50s;
+}
+
+.section-12 .div-41{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+
+}
+
+.div-41>img{
+    background-color: whitesmoke;
+    padding: 30px 30px;
+    margin-bottom: 10px;
+}
+
+.div-41>img{
+    transition: 1s;
+}
+
+.div-41>img:hover{
+    transform: scale(1.1);
+}
+
+.div-41 h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+
+.ediv-25{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ediv-25 .img14{
+    margin-left: 100px;
+    border: 1px solid  black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.ediv-25 .img14{
+    transition: 1s;
+}
+
+.ediv-25 .img14:hover{
+    transform: scale(1.2);
+    
+}
+
+.ediv-27{
+    display: flex;
+    align-items: center;
+}
+
+.ediv-27 h4{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.fsection-19{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+
+    padding: 20px ;
+}
+
+.fsection-19 .div-42{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.div-42>img{
+    background-color: whitesmoke;
+    padding: 50px 40px;
+    margin-bottom: 10px;
+}
+
+.div-42>img{
+    transition: 1s;
+}
+
+.div-42>img:hover{
+    transform: scale(1.1);
+}
+
+.div-42 h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.ediv-26{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ediv-26 .img15{
+    margin-left: 150px;
+    border: 1px solid  black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.ediv-26 .img15{
+    transition: 1s;
+}
+
+.ediv-26 .img15:hover{
+    transform: scale(1.2);
+    
+}
+
+.ediv-28{
+    display: flex;
+    align-items: center;
+}
+
+.ediv-28 h4{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.fsection-20{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px
+    ;
+
+    padding: 20px ;
+}
+
+.fsection-20 .div-42{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.div-42>img{
+    background-color: whitesmoke;
+    padding: 50px 40px;
+    margin-bottom: 10px;
+}
+
+.div-42>img{
+    transition: 1s;
+}
+
+.div-42>img:hover{
+    transform: scale(1.1);
+}
+
+.div-42 h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.ediv-27{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ediv-27 .img16{
+    margin-left: 100px;
+    border: 1px solid  black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.ediv-27 .img16{
+    transition: 1s;
+}
+
+.ediv-27 .img16:hover{
+    transform: scale(1.2);
+    
+}
+
+.ediv-29{
+    display: flex;
+    align-items: center;
+}
+
+.ediv-29 h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.fsection-21{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px
+    ;
+
+    padding: 20px ;
+}
+
+.fsection-21 .div-43{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.div-43>img{
+    background-color: whitesmoke;
+    padding: 10px 40px;
+    margin-bottom: 10px;
+}
+
+.div-43>img{
+    transition: 1s;
+}
+
+.div-43>img:hover{
+    transform: scale(1.1);
+}
+
+.div-43 h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.ediv-28{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ediv-28 .img17{
+    margin-left: 100px;
+    border: 1px solid  black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.ediv-28 .img17{
+    transition: 1s;
+}
+
+.ediv-28 .img17:hover{
+    transform: scale(1.2);
+    
+}
+
+.ediv-30{
+    display: flex;
+    align-items: center;
+}
+
+.ediv-30 h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.fsection-22{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px
+    ;
+
+    padding: 20px ;
+}
+
+.fsection-22 .div-44{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.div-44>img{
+    background-color: whitesmoke;
+    padding: 50px 40px;
+    margin-bottom: 10px;
+}
+
+.div-44>img{
+    transition: 1s;
+}
+
+.div-44>img:hover{
+    transform: scale(1.1);
+}
+
+.div-44 h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.ediv-29{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ediv-29 .img18{
+    margin-left: 100px;
+    border: 1px solid  black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.ediv-29 .img18{
+    transition: 1s;
+}
+
+.ediv-29 .img18:hover{
+    transform: scale(1.2);
+    
+}
+
+.ediv-31{
+    display: flex;
+    align-items: center;
+}
+
+.ediv-31 h4{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer{
+    width: 120%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+@keyframes   changer{
+
+
+    0%{
+         background-color: white;
+    }
+
+    25%{
+          background-color: rgb(209, 173, 173);
+    }
+
+    50%{
+          background-color: rgb(196, 109, 109);
+    }
+
+    75%{
+          background-color: rgb(225, 94, 94);
+    }
+
+    100%{
+           background-color: rgb(206, 29, 29);
+    }
+}
+
+
+@keyframes   changer2{
+
+
+    0%{
+         background-color: white;
+    }
+
+    25%{
+          background-color: rgb(209, 173, 173);
+    }
+
+    50%{
+          background-color: rgb(196, 109, 109);
+    }
+
+    75%{
+          background-color: rgb(225, 94, 94);
+    }
+
+    100%{
+           background-color: rgb(206, 29, 29);
+    }
+}
+
+@keyframes   changer3{
+
+
+    0%{
+         background-color: white;
+    }
+
+    25%{
+          background-color: rgb(209, 173, 173);
+    }
+
+    50%{
+          background-color: rgb(196, 109, 109);
+    }
+
+    75%{
+          background-color: rgb(225, 94, 94);
+    }
+
+    100%{
+           background-color: rgb(206, 29, 29);
+    }
+}
